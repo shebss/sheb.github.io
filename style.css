@@ -43,7 +43,17 @@ section{
     padding: 5rem 9% 5rem;
 }
 
+
+
 .home{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: white;
+}
+
+.intro{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +82,30 @@ span{
     box-shadow: 0 0 25 px solid black;
     cursor: pointer;
     transition: 0.2s linear;
+}
+
+.sisyphus-sprite {
+    width: 64px;        
+    height: 64px;       
+    
+    background-image: url('assets/Sisyphus animation.png');
+    background-size: 320px 64px;
+    background-position: 0px 0px;
+    
+    animation: sisyphusPush 1s steps(5);
+    animation-timeline: scroll();
+    animation-range: 0% 100%;
+
+    
+}
+
+@keyframes sisyphusPush {
+    from {
+        background-position: 0px 0px;   
+    }
+    to {
+        background-position: -320px 0px; /* End at frame 5 */
+    }
 }
 
 .home-img img:hover{
