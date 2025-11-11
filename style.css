@@ -154,6 +154,21 @@ span{
     box-shadow: 0 0 1px black;
 }
 
+.contact{
+    padding-top: 3rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
 @media (max-width:1000px) {
     .home{
         gap: 4rem;
