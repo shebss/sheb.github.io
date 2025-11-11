@@ -53,13 +53,13 @@ section{
     background-color: white;
 }
 
-.intro{
+/* .intro{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
     background-color: white;
-}
+} */
 
 .home .home-content h1{
     font-size: 6rem;
@@ -181,6 +181,8 @@ span{
         flex-direction: column;
         margin: 5rem 4rem;
     }
+
+    
 
     .home-img img{
         margin-top: 4rem;
