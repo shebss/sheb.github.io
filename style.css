@@ -47,19 +47,20 @@ section{
 
 .home{
     display: block;
+    justify-items: center;
     justify-content: center;
     align-items: center;
     gap: 8rem;
     background-color: white;
 }
 
-/* .intro{
+.intro{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
     background-color: white;
-} */
+}
 
 .home .home-content h1{
     font-size: 6rem;
@@ -176,16 +177,22 @@ span{
     }    
 } 
 
-@media (max-width:995px) {
-    .home{
+@media (max-width:500px) {
+    body{
+        background-color: white;
+    }
+    .intro{
+        flex-direction: column;
+    }
+    /* .home{
         flex-direction: column;
         margin: 5rem 4rem;
-    }
+    } */
 
     
-
+/* 
     .home-img img{
         margin-top: 4rem;
-    }
+    } */
     
 }
